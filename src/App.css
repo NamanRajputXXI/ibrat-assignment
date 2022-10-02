@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* Navbar styling */
 .black__container{
   height: 100px;
   width: 100vw;
@@ -11,7 +14,7 @@
   
 }
 nav{
-  width: 100vw;
+  width: 90vw;
   border-bottom:  1px solid gray;;
  
 }
@@ -54,4 +57,41 @@ nav{
   gap: 10px;
   align-items: center;
   justify-content: center;
+}
+.header{
+  height: 200px;
+  width: 100vw;
+  box-shadow: 0px 10px 20px -15px #111  
+}
+
+
+/* hero section styling */
+.main__section{
+  margin-top: 15vh;
+  display: flex;
+  width: 100vw;
+  object-fit: cover;
+  flex-direction: column;
+  gap: 20px;
+}
+.main__container--content{
+  display: flex;
+}
+.main__container--content h1{
+  position: absolute;  
+  color: white;
+
+}
+.main__container{
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;height: 40vh;
+  border-right: 20px;
+  overflow: hidden;
+  background-color: #111;
+}
+.main__section h1{
+  margin-left: 70px;
 }
