@@ -6,19 +6,19 @@ import drills from "../assets/images/drills.jpg";
 const HeroSection = () => {
   return (
     <div className="main__section">
-      <h1>Runners Workout</h1>
+      <h1>Runner's Workout</h1>
       <div className="main__container">
         <div className="main__container--content">
           <h1>Strength</h1>
-          <img src={strength} height="100%" width="100%" alt="drills" />
+          <img src={strength} id="strength" alt="drills" />
         </div>
         <div className="main__container--content">
           <h1>Mobility</h1>
-          <img src={mobility} height="100%" width="100%" alt="drills" />
+          <img src={mobility} id="mobility" alt="drills" />
         </div>
         <div className="main__container--content">
           <h1>Drills</h1>
-          <img src={drills} height="100%" width="100%" alt="drills" />
+          <img src={drills} id="drills" alt="drills" />
         </div>
       </div>
     </div>

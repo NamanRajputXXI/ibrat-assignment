@@ -84,14 +84,32 @@ nav{
 }
 .main__container{
   display: flex;
-  width: fit-content;
+  width: 90vw;
   margin: auto;
   text-align: center;
   border-radius: 20px;height: 40vh;
   border-right: 20px;
   overflow: hidden;
-  background-color: #111;
+  object-fit: contain;
+  position: relative;
+ 
 }
 .main__section h1{
   margin-left: 70px;
+}
+img{
+  filter: brightness(0.6);
+  opacity: 0.9;
+ 
+}
+h1{
+  opacity: 100;
+  z-index: 100;
+}
+#strength:hover{
+ position: static;
+ width: 200%;
+ z-index: 2;
+ left: 0 !important;
+ transition-duration: 1s;
 }
